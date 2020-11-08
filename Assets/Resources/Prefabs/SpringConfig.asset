@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bf99c32b2fd34c36ac750d3b0c75c37, type: 3}
+  m_Name: SpringConfig
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 2, z: 20}
+  number: 10
+  range: 5
+  keepDistance: 2
+  steerForce: 0.001
+  enableGravity: 1
+  gravity: 0.01
+  enableGround: 0
+  groundHeight: 1
+  enableBurst: 1
+  burstForce: 1
+  burstRadius: 1
+  maxHeight: 20
+  rotateOnlyXZ: 1
